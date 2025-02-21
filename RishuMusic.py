@@ -80,8 +80,8 @@ if os.path.exists("Config.env"):
 
 API_ID = int(getenv("API_ID", "14050586"))
 API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "8032121882:AAF0CrDZDCNlctsY1bdOL-6x3NyxLhvPe6o")
+STRING_SESSION = getenv("STRING_SESSION", "BQDWZRoAQgLkapAAU9ePnun9yFuK7PckPPn-qQuyHHeCZZDqBvz0QUB8ApWq9ap2L4ZValLfeFBEqnvs1ZfH-ckS66lbaIDvyU8w2pn5iq1EgblOuDV8yUEhzQmsVxL2bryjDkNWQ7wuFElUfxZl3wQ1kLa7My2BxBj90m78ZmSGnKxa95XLUWBDHvu6FCS36U70hJzP-YsADrUauf9DdZStJyQIYTzbwZvUolGR6iPyBr2ieGUeeG129ovPAa-FMMcTSIsrY_qGhfSpyL4HC5LGl4qyQSAmB_nD1UKeL39NsEOHJuqUgVbUxMeH8QTaogkfsc3v9v-tzzBC5uLynCasM-7P1gAAAAHdQgwMAQ")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "6258915779"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001992970818"))
@@ -447,7 +447,7 @@ CBUTTON = InlineKeyboardMarkup(
             InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/ur_support07")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ansh_hack"),
             InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
         ],
         [
@@ -469,7 +469,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【 ʀɪsʜυ-ϻυsɪᴄ 】](https://t.me/Ur_rishu_143) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【 Aɴsʜ-Mᴜsɪᴄ 】](https://t.me/ansh_hack) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **✦ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -481,10 +481,10 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/Ur_rishu_143)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/ansh_hack)**"""
 
 HELP_X = """```
-    【 ʀɪsʜυ-ϻυsɪᴄ 】 ᴍᴇɴᴜ```
+    【 Aɴsʜ-Mᴜsɪᴄ 】 ᴍᴇɴᴜ```
 
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 
@@ -500,7 +500,7 @@ HELP_X = """```
 
 ✦ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [ʀɪsʜυ ʙσᴛ](https://t.me/Ur_rishu_143)**"""
+❖ 𝐏ᴏᴡᴇʀᴇᴅ ʙʏ - [Ansh](https://t.me/ansh_hack)**"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("RISHU_RAJPUT"))
@@ -509,7 +509,7 @@ async def helper_cb(client, CallbackQuery):
     
     
         
-@bot.on_callback_query(filters.regex("RISHU"))
+@bot.on_callback_query(filters.regex("Ansh"))
 async def helper_cb(client, CallbackQuery):
     await CallbackQuery.edit_message_text(HELP_C, reply_markup=CBUTTON)
 
@@ -553,11 +553,11 @@ async def back_to_home_menu(client, query):
             [
                 InlineKeyboardButton(
                     text="˹ ᴧʙᴏᴜᴛ ˼",
-                    callback_data="RISHU",
+                    callback_data="Ansh",
                 ),
                 InlineKeyboardButton(
                     text="˹ ʀᴇᴘᴏ ˼",
-                    url="https://github.com/Rishubot/RishuMusic",  # Callback data for Owner button
+                    url="https://github.com/anshu908/RishuMusic",  # Callback data for Owner button
                 ),
             ]
         ]
@@ -927,7 +927,7 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【 ʀɪsʜυ-ϻυsɪᴄ 】```\n\n<b>❍ ᴛɪᴛʟє ➥</b> {title}\n<b>❍ ᴛɪϻє ➥</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ ʙʏ ➥</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʀɪsʜᴜ  ˼```"""
+    caption = f"""```\n🔊<b>【 Aɴsʜ-Mᴜsɪᴄ 】```\n\n<b>❍ ᴛɪᴛʟє ➥</b> {title}\n<b>❍ ᴛɪϻє ➥</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ ʙʏ ➥</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʀɪsʜᴜ  ˼```"""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -937,7 +937,7 @@ async def change_stream(chat_id):
                 )
             ],
             [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ansh_hack"),
             InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
             ],
             [
@@ -1041,7 +1041,7 @@ async def stream_audio_or_video(client, message):
                 )
                     ],
                     [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ansh_hack"),
             InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
                     ],
                     [
@@ -1125,7 +1125,7 @@ async def stream_audio_or_video(client, message):
                 )
             ],
             [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/Ur_rishu_143"),
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/ansh_hack"),
             InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/Vip_robotz/4")
             ],
             [
@@ -1260,7 +1260,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊<b>【 ʀɪsʜυ-ϻυsɪᴄ 】```\n\n<b>❍ ᴛɪᴛʟє ➥</b> {title}\n<b>❍ ᴛɪϻє ➥</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ ʙʏ ➥</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʀɪsʜᴜ ˼```"""
+                caption = f"""```\n🔊<b>【 Aɴsʜ-Mᴜsɪᴄ 】```\n\n<b>❍ ᴛɪᴛʟє ➥</b> {title}\n<b>❍ ᴛɪϻє ➥</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>❍ ʙʏ ➥</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʀɪsʜᴜ ˼```"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1450,7 +1450,7 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/Ur_Rishu_143"
+                url="https://t.me/ansh_hack"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
@@ -1526,7 +1526,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**【 ʀɪsʜυ-ϻυsɪᴄ 】༗**"
+    caption = "**【 Aɴsʜ-Mᴜsɪᴄ 】༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1565,7 +1565,7 @@ async def check_total_stats(client, query):
         video_chats = len(ACTIVE_VIDEO_CHATS)
         
         return await query.answer(
-            f"""⏱️ 【 ʀɪsʜυ-ϻυsɪᴄ 】
+            f"""⏱️ 【 Aɴsʜ-Mᴜsɪᴄ 】
 ☛ {uptime}
 
 🔴 Served Chats: {served_chats}
